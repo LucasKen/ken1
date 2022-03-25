@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="453AAFD1-6542-3904-37B8-C5E46B363F18" name="CLIENTES(ALUNOS)" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="85604AA0-9080-BCE2-5508-4DAF2D50F7E3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0BE36EE1-9380-C796-7FD8-CCED50FC80F2" name="CURSOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="85604AA0-9080-BCE2-5508-4DAF2D50F7E3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7BAADA4F-00DB-DC9A-6ED3-478D161E49C5" name="INTRUTORES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="85604AA0-9080-BCE2-5508-4DAF2D50F7E3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="FBB08291-DDAA-6701-E50A-E07493AEEB3F" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="85604AA0-9080-BCE2-5508-4DAF2D50F7E3" propertySourceId="0BE36EE1-9380-C796-7FD8-CCED50FC80F2" propertyTargetId="7BAADA4F-00DB-DC9A-6ED3-478D161E49C5"/>
+   <object objectType="Relation" objectID="98AEC2ED-8E0B-737E-D33C-4492DEDEFA31" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="85604AA0-9080-BCE2-5508-4DAF2D50F7E3" propertySourceId="0BE36EE1-9380-C796-7FD8-CCED50FC80F2" propertyTargetId="453AAFD1-6542-3904-37B8-C5E46B363F18"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

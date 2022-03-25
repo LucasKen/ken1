@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BE36EE1-9380-C796-7FD8-CCED50FC80F2" name="CURSOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 11:40:18 UTC</createdTime>
+<ownerDesignName>w</ownerDesignName>
+<engineerTo>
+<item key="3CCBD915-B78A-7307-7870-16108C87EAED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_curso" id="0F67FA99-58D3-0813-1A57-8D0FFA71ECE5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 11:40:40 UTC</createdTime>
+<ownerDesignName>w</ownerDesignName>
+<engineerTo>
+<item key="3CCBD915-B78A-7307-7870-16108C87EAED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_curso" id="0E5D05CE-9F62-3797-14E2-4576A2D148D0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 11:41:05 UTC</createdTime>
+<ownerDesignName>w</ownerDesignName>
+<engineerTo>
+<item key="3CCBD915-B78A-7307-7870-16108C87EAED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preço" id="5FE8E915-6E02-D201-1787-5D4C83968B1A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 11:41:40 UTC</createdTime>
+<ownerDesignName>w</ownerDesignName>
+<engineerTo>
+<item key="3CCBD915-B78A-7307-7870-16108C87EAED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duração_curso" id="1CD541BA-5537-5DBF-9DD2-E7BA904E0A05">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 11:41:51 UTC</createdTime>
+<ownerDesignName>w</ownerDesignName>
+<engineerTo>
+<item key="3CCBD915-B78A-7307-7870-16108C87EAED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3441E4A-E759-4878-26C0-A9A6F9FC7898" name="CURSOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 11:43:05 UTC</createdTime>
+<ownerDesignName>w</ownerDesignName>
+<engineerTo>
+<item key="3CCBD915-B78A-7307-7870-16108C87EAED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F67FA99-58D3-0813-1A57-8D0FFA71ECE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
